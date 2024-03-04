@@ -1,0 +1,1 @@
+export type addTrainingFunc = (event: React.ChangeEvent<HTMLFormElement>) => void;

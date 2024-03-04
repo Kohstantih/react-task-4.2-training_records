@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.training_records {
+  width: 500px;
+
+  text-align: left;
+}
+
+.add_records {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.add-records_item {
+  width: 40%;
+}
+
+.label_item {
+  display: block;
+
+  margin-bottom: 5px;
+}
+
+.input_item {
+  height: 50px;
+  width: 100%;
+
+  border-radius: 10px;
+
+  text-align: center;
+  font-size: 1.3em;
+
+  padding: 5px;
+}
+
+.submit-records {
+  height: 50px;
+  min-width: 10%;
+
+  font-size: 1.3em;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+
+  cursor: pointer;
+
+  padding: 0;
+}
+
+.submit-records:hover {
+  font-size: 1.4em;
+}
+
+.submit-records:active {
+  font-size: 1.3em;
+}
+
+.list_title {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.training_list{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.training_item {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.inf_item {
+  display: block;
+  width: 40%;
+}
+
+.buttons_box {
+  width: 10%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn_ctrl-records {
+  border: none;
+  background-color: white;
+
+  cursor: pointer;
+
+  padding: 0;
+}
+
+.btn_ctrl-records:hover {
+  font-size: 1.1em;
+}
+
+.btn_ctrl-records:active {
+  font-size: 1em;
+  outline: none;
+}
